@@ -1,0 +1,138 @@
+body {
+	font-family: "Lato";
+	background-color: #E5E5E5;
+
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+
+.main__title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-bottom: 40px;
+}
+
+.main__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 48px;
+}
+
+.main__list-learn ul {
+	margin-bottom: 32px;
+    padding-left: 0;
+}
+.main__list-learn li {
+	margin-bottom: 4px;
+	padding-left: 32px;
+	background: url('../img/icons/check.svg') 0 3px no-repeat;
+    list-style-type: none;
+}
+
+.main__list-learn li:hover:nth-child(even) {
+    color: yellow;
+}
+
+.main__list-learn li:hover:nth-child(odd) {
+    color: aqua;
+}
+
+
+.main h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    margin-bottom: 24px;
+} 
+
+.main__title-2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main h2 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.main h2:hover {
+    padding-left: 70px;
+    color: rgb(140, 148, 129);
+    transition: all 1s;
+} 
+
+
+.main__speciality {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #787A80;
+    margin-bottom: 32px;
+}
+
+.main__raite {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 32px;
+}
+
+
+.main__raite ul {
+    padding-left: 0;
+
+}
+
+.main__raite li {
+    margin-bottom: 4px;
+	padding-left: 25px;
+    list-style-type: none;
+
+}
+
+.main__raite li:first-child {
+    background: url('../img/icons/Star.svg') 0 4px no-repeat;
+    display: inline-block;
+}
+
+.main__raite li:first-child:hover {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
+
+.main__raite li:last-child {
+    background: url('../img/icons/Profile.svg') 0 4px no-repeat;
+    display: inline-block;
+}
+
+.main__raite li:last-child:hover {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
+
+.main__raite li:nth-child(2) {
+    background: url('../img/icons/Vector.svg') 0 4px no-repeat;
+    display: block;
+}
+
+.main__raite li:nth-child(2):hover {
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
