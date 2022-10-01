@@ -1,7 +1,6 @@
 body {
 	font-family: "Lato";
 	background-color: #E5E5E5;
-
 }
 
 [class*="__container"]{
@@ -32,16 +31,18 @@ body {
 .main__list-learn li {
 	margin-bottom: 4px;
 	padding-left: 32px;
-	background: url('../img/icons/check.svg') 0 3px no-repeat;
+	background: url('../img/icons/check.svg') 0 1px no-repeat;
     list-style-type: none;
 }
 
 .main__list-learn li:hover:nth-child(even) {
     color: yellow;
+    cursor: pointer;
 }
 
 .main__list-learn li:hover:nth-child(odd) {
     color: aqua;
+    cursor: pointer;
 }
 
 
@@ -106,33 +107,43 @@ body {
 
 .main__raite li:first-child {
     background: url('../img/icons/Star.svg') 0 4px no-repeat;
-    display: inline-block;
-}
-
-.main__raite li:first-child:hover {
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    transform: scale(1.2);
 }
 
 .main__raite li:last-child {
     background: url('../img/icons/Profile.svg') 0 4px no-repeat;
-    display: inline-block;
-}
-
-.main__raite li:last-child:hover {
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    transform: scale(1.2);
 }
 
 .main__raite li:nth-child(2) {
     background: url('../img/icons/Vector.svg') 0 4px no-repeat;
-    display: block;
 }
 
-.main__raite li:nth-child(2):hover {
+.main__star:hover {
+    display: inline-block;
     cursor: pointer;
     transition: all 0.5s ease 0s;
     transform: scale(1.2);
+}
+
+.main__play:hover {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
+
+.main__profile:hover {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    transform: scale(1.2);
+}
+
+.snake {
+    height: 80px;
+    width: 300;
+}
+
+.snake p:nth-child(1):hover {
+    background-color: green;
+    width: 500px;
 }
