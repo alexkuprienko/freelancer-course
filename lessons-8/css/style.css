@@ -111,6 +111,7 @@ body {
 
 .main__raite li:last-child {
     background: url('../img/icons/Profile.svg') 0 4px no-repeat;
+    margin-bottom: 0;
 }
 
 .main__raite li:nth-child(2) {
@@ -138,12 +139,3 @@ body {
     transform: scale(1.2);
 }
 
-.snake {
-    height: 80px;
-    width: 300;
-}
-
-.snake p:nth-child(1):hover {
-    background-color: green;
-    width: 500px;
-}
